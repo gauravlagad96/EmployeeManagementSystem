@@ -31,7 +31,7 @@ const EmployeeForm = () => {
     <div className="bg-slate-400 grid gap-2">
       <h2 className="text-center font-bold text-2xl">Add Employee</h2>
       <br />
-      
+
       <form onSubmit={handleSubmit} className="grid gap-4   place-content-center ">
         <input
           type="text"

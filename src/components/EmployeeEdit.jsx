@@ -124,8 +124,8 @@ const EmployeeEdit = () => {
                 <div>          
                     <span>salary : </span>
                         <input
-                    type="text"
-                    name="designation"
+                    type="number"
+                    name="salary"
                     value={formData.salary}
                     onChange={handleInputChange}
                     required

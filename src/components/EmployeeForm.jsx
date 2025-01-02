@@ -98,7 +98,7 @@ const EmployeeForm = () => {
         <input
           type="number"
           name="salary"
-          placeholder="Enter designation "
+          placeholder="Enter salary "
           value={formData.salary}
           onChange={handleInputChange}
           required

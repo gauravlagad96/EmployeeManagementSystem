@@ -28,7 +28,7 @@ const EmployeeForm = () => {
   };
 
   return (
-    <div className="bg-slate-400 grid gap-2">
+    <div className="bg-slate-400 grid gap-2 py-4">
       <h2 className="text-center font-bold text-2xl">Add Employee</h2>
       <br />
 

@@ -49,6 +49,7 @@ const EmployeeList = () => {
           ))}
         </tbody>
       </table>
+      
     </div>
   );
 };

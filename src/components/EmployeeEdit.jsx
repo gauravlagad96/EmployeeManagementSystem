@@ -36,32 +36,46 @@ const EmployeeEdit = () => {
     return (
         <div>
             <h2>Edit Employee</h2>
-       <h2>Below is the form</h2>
-            <form onSubmit={handleSubmit} className="bg-black">
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    required
-                />
-                <input
-                    type="date"
-                    name="dob"
-                    value={formData.dob}
-                    onChange={handleInputChange}
-                    required
-                />
-                <input
-                    type="text"
-                    name="contact"
-                    placeholder="Contact"
-                    value={formData.contact}
-                    onChange={handleInputChange}
-                    required
-                />
-                <input
+
+            <form onSubmit={handleSubmit} className="gap-4 grid">
+                <div>
+                    <span>Full Name: </span>
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                        required
+                    />
+
+                </div>
+                <div>
+                    <span>Date : </span>
+                    <input
+                        type="date"
+                        name="dob"
+                        value={formData.dob}
+                        onChange={handleInputChange}
+                        required
+                    />
+
+                </div>
+                <div>
+                    <span>Contact : </span>
+                    <input
+                        type="text"
+                        name="contact"
+                        placeholder="Contact"
+                        value={formData.contact}
+                        onChange={handleInputChange}
+                        required
+                    />
+                </div>
+
+                <div>          
+                    <span>Mail : </span>
+                        <input
                     type="email"
                     name="email"
                     placeholder="Email"
@@ -69,7 +83,8 @@ const EmployeeEdit = () => {
                     onChange={handleInputChange}
                     required
                 />
-                <button className="bg-black text-white hover:bg-red duration-500" type="submit">Update Employee</button>
+
+                </div>                <button className="bg-green-500  text-white hover:bg-red duration-500" type="submit">Update Employee</button>
             </form>
 
         </div>

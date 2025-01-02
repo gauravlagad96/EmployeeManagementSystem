@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import EmployeeList from './components/EmployeeList';
 import EmployeeForm from './components/EmployeeForm';
-import EmployeeEdit from './EmployeeEdit';
+import EmployeeEdit from './components/EmployeeEdit';
 
 const App = () => {
   return (

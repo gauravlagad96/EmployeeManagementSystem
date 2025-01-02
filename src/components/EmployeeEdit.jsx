@@ -78,13 +78,64 @@ const EmployeeEdit = () => {
                         <input
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    
                     value={formData.email}
                     onChange={handleInputChange}
                     required
                 />
 
-                </div>                <button className="bg-green-500  text-white hover:bg-red duration-500" type="submit">Update Employee</button>
+                </div> 
+
+                <div>          
+                    <span>Address : </span>
+                        <input
+                    type="text"
+                    name="address"
+                    placeholder="Email"
+                    value={formData.address}
+                    onChange={handleInputChange}
+                    required
+                />
+                </div> 
+
+
+                <div>          
+                    <span>Department : </span>
+                        <input
+                    type="text"
+                    name="department"
+                    value={formData.department}
+                    onChange={handleInputChange}
+                    required
+                />
+                </div> 
+
+                <div>          
+                    <span>designation : </span>
+                        <input
+                    type="text"
+                    name="designation"
+                    value={formData.designation}
+                    onChange={handleInputChange}
+                    required
+                />
+                </div> 
+
+                <div>          
+                    <span>salary : </span>
+                        <input
+                    type="text"
+                    name="designation"
+                    value={formData.salary}
+                    onChange={handleInputChange}
+                    required
+                />
+                </div> 
+
+
+
+
+                 <button className="bg-green-500  text-white hover:bg-red duration-500" type="submit">Update Employee</button>
             </form>
 
         </div>
